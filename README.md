@@ -1,0 +1,27 @@
+# Selenium XQA Maven TestNG Automation Framework
+
+## 📌 Project Description
+This project is an automation framework built using Selenium, TestNG, and Maven.
+
+## 🛠️ Tech Stack
+- Java
+- Selenium WebDriver
+- TestNG
+- Maven
+
+## 📁 Project Structure
+src/
+ ├── main/java
+ ├── test/java
+ └── util/
+
+## ▶️ How to Run
+1. Clone the repository
+2. Open in IDE (Eclipse/IntelliJ)
+3. Run testng.xml file
+
+## 📸 Reports
+Extent Reports are generated in the /reports folder.
+
+## 👩‍💻 Author
+Aishwarya Patil
