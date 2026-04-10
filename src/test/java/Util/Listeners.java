@@ -29,8 +29,11 @@ public class Listeners implements ITestListener {
 	{
 		Object testClass = result.getInstance();
         WebDriver driver = ((BaseClass) testClass).getdriver();
+        test.fail(result.getThrowable());
+        
         try {
-			Screenshot.capturescreenshot(driver, result.getMethod().getMethodName());
+        	String path=Screenshot.capturescreenshot(driver, result.getMethod().getMethodName());
+        	test.addScreenCaptureFromPath(path, result.getMethod().getMethodName());//attach screenshot to report 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

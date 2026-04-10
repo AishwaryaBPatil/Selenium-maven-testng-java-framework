@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" name="ChromeBrowserTest(failed)">
     <classes>
-      <class name="com.seleniumProject.PracticeSeleniumDemo.Formtest">
+      <class name="com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest">
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="invalidsubmitform"/>
+          <include name="handlewindow"/>
         </methods>
-      </class> <!-- com.seleniumProject.PracticeSeleniumDemo.Formtest -->
+      </class> <!-- com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest -->
     </classes>
   </test> <!-- ChromeBrowserTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

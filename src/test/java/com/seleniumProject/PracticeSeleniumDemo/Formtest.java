@@ -5,7 +5,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Formtest extends BaseClass {
-	@Test(enabled=false)
+	@Test
 	public void validsubmitform()
 	{
 		Form f=new Form(driver);
@@ -15,9 +15,8 @@ public class Formtest extends BaseClass {
 		Reporter.log("FirstName Textbox working fine",true);
 		Assert.assertEquals(f.getLastNameValue(), "patil");
 		Reporter.log("lastName textbox working fine",true);
-		
-		
-	}
+		}
+	
 	@Test
 	public void invalidsubmitform()
 	{

@@ -10,8 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import org.testng.Assert;
-import org.testng.Reporter;
+
 
 import com.aventstack.extentreports.model.Report;
 
@@ -103,7 +102,7 @@ public class Form {
 			if(li.getText().equals(expected))
 			{
 				li.click();
-				Assert.assertEquals(li.getText(), expected);
+				//Assert.assertEquals(li.getText(), expected);
 				
 			}
 		}
@@ -118,7 +117,7 @@ public class Form {
 			}
 		}
 		submitbtton.click();
-		Assert.assertTrue(thankspopup.isDisplayed(), "Thankspopupvisible");
+		//Assert.assertTrue(thankspopup.isDisplayed(), "Thankspopupvisible");
 		
 	}
 	

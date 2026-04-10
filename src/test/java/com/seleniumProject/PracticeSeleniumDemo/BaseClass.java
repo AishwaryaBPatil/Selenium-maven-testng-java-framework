@@ -4,7 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
@@ -17,7 +19,7 @@ public WebDriver getdriver()
 {
 	return driver;
 	}
-@BeforeSuite
+@BeforeMethod
 @Parameters("browser")
 
 public void setup(String browser)
@@ -48,7 +50,7 @@ public void setup(String browser)
 		driver.get("https://xqa.io/practice");
 	}
 	
-@AfterSuite
+@AfterMethod
 public void teardown()
 {
 	driver.quit();

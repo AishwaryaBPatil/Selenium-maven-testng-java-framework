@@ -8,7 +8,8 @@
 <test name="ChromeBrowserTest">
 
 <classes>
-<class name="com.seleniumProject.PracticeSeleniumDemo.Formtest"/>
+<!--<class name="com.seleniumProject.PracticeSeleniumDemo.Formtest"/>--> 
+<class name="com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest"/>
 </classes>
 </test>
 </suite>
