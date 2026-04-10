@@ -5,6 +5,14 @@ target/
 screenshots/
 reports/
 
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# Compiled Java files
+*.class
+
 
 # Logs
 *.log
