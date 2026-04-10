@@ -1,0 +1,10 @@
+# Maven build files
+target/
+
+# Screenshots & reports
+screenshots/
+reports/
+
+
+# Logs
+*.log
