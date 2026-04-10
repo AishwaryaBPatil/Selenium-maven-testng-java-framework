@@ -2,6 +2,7 @@
 
 ## 📌 Project Description
 This project is an automation framework built using Selenium, TestNG, and Maven.
+Practice Site - https://xqa.io/practice
 
 ## 🛠️ Tech Stack
 - Java
