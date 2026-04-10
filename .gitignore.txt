@@ -6,8 +6,8 @@ screenshots/
 reports/
 
 # Eclipse files
-.project
-.classpath
+.project/
+.classpath/
 .settings/
 
 # Compiled Java files
