@@ -9,7 +9,7 @@
 
 <classes>
 <!--<class name="com.seleniumProject.PracticeSeleniumDemo.Formtest"/>--> 
-<class name="com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest"/>
+<class name="com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest"></class>
 </classes>
 </test>
 </suite>

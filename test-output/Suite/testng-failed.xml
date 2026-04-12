@@ -11,7 +11,7 @@
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="handlewindow"/>
+          <include name="handleconfirmbtn"/>
         </methods>
       </class> <!-- com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest -->
     </classes>

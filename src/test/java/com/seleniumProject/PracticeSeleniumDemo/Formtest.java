@@ -24,12 +24,10 @@ public class Formtest extends BaseClass {
 		fo.clickarrow();
 		fo.invalidinput(""," ","123");
 		fo.submitbutton();
-		 String msg = fo.getFirstValidationmessage();
+		String msg = fo.getFirstValidationmessage();
 		// String lastmsg=fo.getLastValidationmessage();
 		// String emailmsg=fo.getemailvalidationmessage();
-
-		    
-		    Assert.assertTrue(msg.contains("fill out"));
+		Assert.assertTrue(msg.contains("fill out"));
 		  //  Assert.assertTrue(lastmsg.contains("fill out"));
 		  //  Assert.assertTrue(emailmsg.contains(" Please include an '@' in the email address. '123' is missing an '@'."));
 		

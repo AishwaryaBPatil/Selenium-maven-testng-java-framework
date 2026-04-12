@@ -13,7 +13,7 @@ import org.testng.annotations.Parameters;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
-static WebDriver driver;
+protected static WebDriver driver;
 
 public WebDriver getdriver()
 {
@@ -53,6 +53,8 @@ public void setup(String browser)
 @AfterMethod
 public void teardown()
 {
-	driver.quit();
+	 if (driver != null) {
+	        driver.quit();
+	    }
 	}
 }
