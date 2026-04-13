@@ -3,6 +3,8 @@ package com.seleniumProject.PracticeSeleniumDemo;
 import java.time.Duration;
 import java.util.Set;
 import Util.AlertUtil;
+import Util.WaithandleUtil;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -81,5 +83,18 @@ public class AlertFramewindowstest extends BaseClass{
 		
     }
 	
-
+    @Test
+    public void handleframes()
+    {
+    	alerthandle=new AlertframeWindows(driver);
+    	alerthandle.frames();
+    	WaithandleUtil wait=new WaithandleUtil(driver);
+    	alerthandle.getfirstframelocator();
+    	driver.switchTo().frame(alerthandle.getfirstframelocator());
+    	//System.out.println(alerthandle.getframeheading());
+    	alerthandle.getsecondframelocator();
+    	
+    	
+    	System.out.println(alerthandle.getframeheading());
+    }
 }

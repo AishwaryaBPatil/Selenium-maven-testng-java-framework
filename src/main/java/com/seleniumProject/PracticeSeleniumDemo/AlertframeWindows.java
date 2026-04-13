@@ -39,6 +39,17 @@ public class AlertframeWindows {
 	@FindBy(id="promtButton")
 	WebElement promtbtn;
 	
+	@FindBy(xpath="//a[contains(text(),'Frames')]")
+	WebElement frame;
+	
+	@FindBy(id="frame1")
+	WebElement frameone;
+	
+	@FindBy(id="frame2")
+	WebElement frametwo;
+	
+	@FindBy(id="sampleHeading")
+	WebElement frameheading;
 	
 	public void windowhandlebutton()
 		{
@@ -92,6 +103,27 @@ public class AlertframeWindows {
 		w.until(ExpectedConditions.elementToBeClickable(promtbtn)).click();
 		
 	}
+	
+	public void frames()
+	{
+		WebDriverWait w=new WebDriverWait(driver,Duration.ofSeconds(10));
+		w.until(ExpectedConditions.elementToBeClickable(frame)).click();
+		
+	}
+	
+	public WebElement getfirstframelocator()
+	{
+	return frameone;	
+	}
+	public String getframeheading()
+	{
+		return frameheading.getText();
+	}
+	public WebElement getsecondframelocator()
+	{
+	return frametwo;	
+	}
+	
     public AlertframeWindows(WebDriver driver)
 		{
 			this.driver=driver;

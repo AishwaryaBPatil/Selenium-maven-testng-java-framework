@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-12T13:02:09 IST" name="Suite" finished-at="2026-04-12T13:02:27 IST" duration-ms="17817">
+  <suite started-at="2026-04-13T19:44:07 IST" name="Suite" finished-at="2026-04-13T19:44:25 IST" duration-ms="18526">
     <groups>
     </groups>
-    <test started-at="2026-04-12T13:02:09 IST" name="ChromeBrowserTest" finished-at="2026-04-12T13:02:27 IST" duration-ms="17817">
-      <class name="com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:09 IST" name="setup" finished-at="2026-04-12T13:02:11 IST" duration-ms="2536" status="PASS">
+    <test started-at="2026-04-13T19:44:07 IST" name="ChromeBrowserTest" finished-at="2026-04-13T19:44:25 IST" duration-ms="18526">
+      <class name="com.seleniumProject.PracticeSeleniumDemo.Widgettest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-13T19:44:07 IST" name="setup" finished-at="2026-04-13T19:44:13 IST" duration-ms="6517" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,76 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="handleClick_Button_alert()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:11 IST" name="handleClick_Button_alert" finished-at="2026-04-12T13:02:13 IST" duration-ms="1753" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleClick_Button_alert -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:13 IST" name="teardown" finished-at="2026-04-12T13:02:14 IST" duration-ms="350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:14 IST" name="setup" finished-at="2026-04-12T13:02:15 IST" duration-ms="1602" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="handleconfirmbtn()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:15 IST" name="handleconfirmbtn" finished-at="2026-04-12T13:02:15 IST" duration-ms="131" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="handleaccordian()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-13T19:44:13 IST" name="handleaccordian" finished-at="2026-04-13T19:44:24 IST" duration-ms="10770" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#confirmResult"}
-  (Session info: chrome=146.0.7680.178)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cc51fc86ca78d4c9eb55d3cf2704cefe, findElement {value=confirmResult, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AISHWA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57298}, goog:processID: 18152, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57298/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cc51fc86ca78d4c9eb55d3cf2704cefe]]>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='section1-heading']/svg[@class='lucide-chevron-down']' (tried for 10 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#confirmResult"}
-  (Session info: chrome=146.0.7680.178)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cc51fc86ca78d4c9eb55d3cf2704cefe, findElement {value=confirmResult, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AISHWA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57298}, goog:processID: 18152, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57298/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cc51fc86ca78d4c9eb55d3cf2704cefe
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.getWrappedElement(Unknown Source)
-at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:486)
-at com.seleniumProject.PracticeSeleniumDemo.AlertframeWindows.confirmalert(AlertframeWindows.java:84)
-at com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest.handleconfirmbtn(AlertFramewindowstest.java:65)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='section1-heading']/svg[@class='lucide-chevron-down']' (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.seleniumProject.PracticeSeleniumDemo.Widget.clickfirst(Widget.java:30)
+at com.seleniumProject.PracticeSeleniumDemo.Widgettest.handleaccordian(Widgettest.java:12)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -114,74 +55,50 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='section1-heading']/svg[@class='lucide-chevron-down']"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2b7003546d5b3cb204eeb77d8395efc0, findElement {value=//div[@id='section1-heading']/svg[@class='lucide-chevron-down'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AISHWA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55654}, goog:processID: 29940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55654/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b7003546d5b3cb204eeb77d8395efc0
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 28 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleconfirmbtn -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:16 IST" name="teardown" finished-at="2026-04-12T13:02:16 IST" duration-ms="281" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:16 IST" name="setup" finished-at="2026-04-12T13:02:18 IST" duration-ms="1687" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="handlenewtab()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:18 IST" name="handlenewtab" finished-at="2026-04-12T13:02:19 IST" duration-ms="1653" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlenewtab -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:19 IST" name="teardown" finished-at="2026-04-12T13:02:20 IST" duration-ms="275" status="PASS">
+        </test-method> <!-- handleaccordian -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-13T19:44:24 IST" name="teardown" finished-at="2026-04-13T19:44:25 IST" duration-ms="968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:20 IST" name="setup" finished-at="2026-04-12T13:02:21 IST" duration-ms="1762" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="handlepromtalert()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:21 IST" name="handlepromtalert" finished-at="2026-04-12T13:02:22 IST" duration-ms="987" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlepromtalert -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:22 IST" name="teardown" finished-at="2026-04-12T13:02:23 IST" duration-ms="308" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:23 IST" name="setup" finished-at="2026-04-12T13:02:24 IST" duration-ms="1492" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="handlewindow()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:24 IST" name="handlewindow" finished-at="2026-04-12T13:02:26 IST" duration-ms="2203" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlewindow -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest@3ddc6915]" started-at="2026-04-12T13:02:26 IST" name="teardown" finished-at="2026-04-12T13:02:27 IST" duration-ms="337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest -->
+      </class> <!-- com.seleniumProject.PracticeSeleniumDemo.Widgettest -->
     </test> <!-- ChromeBrowserTest -->
   </suite> <!-- Suite -->
 </testng-results>
