@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-15T19:31:26 IST" name="Suite" finished-at="2026-04-15T19:31:34 IST" duration-ms="8172">
+  <suite started-at="2026-04-15T19:40:05 IST" name="Suite" finished-at="2026-04-15T19:40:10 IST" duration-ms="4714">
     <groups>
     </groups>
-    <test started-at="2026-04-15T19:31:26 IST" name="ChromeBrowserTest" finished-at="2026-04-15T19:31:34 IST" duration-ms="8172">
+    <test started-at="2026-04-15T19:40:05 IST" name="ChromeBrowserTest" finished-at="2026-04-15T19:40:10 IST" duration-ms="4714">
       <class name="com.seleniumProject.PracticeSeleniumDemo.Widgettest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:31:26 IST" name="setup" finished-at="2026-04-15T19:31:32 IST" duration-ms="5727" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:40:05 IST" name="setup" finished-at="2026-04-15T19:40:09 IST" duration-ms="3294" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="handleaccordian()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:31:32 IST" name="handleaccordian" finished-at="2026-04-15T19:31:33 IST" duration-ms="1220" status="PASS">
+        <test-method signature="handleaccordian()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:40:09 IST" name="handleaccordian" finished-at="2026-04-15T19:40:10 IST" duration-ms="1011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleaccordian -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:31:33 IST" name="teardown" finished-at="2026-04-15T19:31:34 IST" duration-ms="1173" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:40:10 IST" name="teardown" finished-at="2026-04-15T19:40:10 IST" duration-ms="357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
