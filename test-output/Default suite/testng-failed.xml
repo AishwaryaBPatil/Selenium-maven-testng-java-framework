@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest">
+      <class name="com.seleniumProject.PracticeSeleniumDemo.Widgettest">
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="handlenewtab"/>
-          <include name="handlewindow"/>
+          <include name="clickallacco"/>
         </methods>
-      </class> <!-- com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest -->
+      </class> <!-- com.seleniumProject.PracticeSeleniumDemo.Widgettest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

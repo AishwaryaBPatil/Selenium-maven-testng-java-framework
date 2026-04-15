@@ -10,7 +10,7 @@
       <class name="com.seleniumProject.PracticeSeleniumDemo.Widgettest">
         <methods>
           <include name="teardown"/>
-          <include name="handleaccordian"/>
+          <include name="clickallacco"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.seleniumProject.PracticeSeleniumDemo.Widgettest -->
