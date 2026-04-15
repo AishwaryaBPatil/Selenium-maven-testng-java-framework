@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-15T18:05:20 IST" name="Suite" finished-at="2026-04-15T18:05:25 IST" duration-ms="4288">
+  <suite started-at="2026-04-15T19:31:26 IST" name="Suite" finished-at="2026-04-15T19:31:34 IST" duration-ms="8172">
     <groups>
     </groups>
-    <test started-at="2026-04-15T18:05:20 IST" name="ChromeBrowserTest" finished-at="2026-04-15T18:05:25 IST" duration-ms="4288">
+    <test started-at="2026-04-15T19:31:26 IST" name="ChromeBrowserTest" finished-at="2026-04-15T19:31:34 IST" duration-ms="8172">
       <class name="com.seleniumProject.PracticeSeleniumDemo.Widgettest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@4f704591]" started-at="2026-04-15T18:05:20 IST" name="setup" finished-at="2026-04-15T18:05:24 IST" duration-ms="3621" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:31:26 IST" name="setup" finished-at="2026-04-15T19:31:32 IST" duration-ms="5727" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickallacco()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@4f704591]" started-at="2026-04-15T18:05:24 IST" name="clickallacco" finished-at="2026-04-15T18:05:24 IST" duration-ms="261" status="PASS">
+        <test-method signature="handleaccordian()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:31:32 IST" name="handleaccordian" finished-at="2026-04-15T19:31:33 IST" duration-ms="1220" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickallacco -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@4f704591]" started-at="2026-04-15T18:05:24 IST" name="teardown" finished-at="2026-04-15T18:05:25 IST" duration-ms="366" status="PASS">
+        </test-method> <!-- handleaccordian -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:31:33 IST" name="teardown" finished-at="2026-04-15T19:31:34 IST" duration-ms="1173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

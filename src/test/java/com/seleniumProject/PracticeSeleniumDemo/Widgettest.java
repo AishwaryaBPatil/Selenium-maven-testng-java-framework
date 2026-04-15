@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class Widgettest extends BaseClass{
 	Widget widget;
-	@Test(enabled=false)
+	@Test
 	public void handleaccordian()
 	{
 		String str="Where does it come from?";
