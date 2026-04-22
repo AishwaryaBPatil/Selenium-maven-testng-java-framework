@@ -1,4 +1,4 @@
-# Selenium XQA Maven TestNG Automation Framework
+# Selenium  Maven TestNG Automation Framework
 
 ## 📌 Project Description
 This project is an automation framework built using Selenium, TestNG, and Maven.
