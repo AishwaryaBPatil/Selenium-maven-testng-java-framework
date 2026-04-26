@@ -26,6 +26,11 @@ src/
 2. Open in IDE (Eclipse/IntelliJ)
 3. Run testng.xml file
 
+## 📊 Test Execution Report
+
+The automation test execution report is generated using Extent Reports.
+
+🔗 [Click here to view report](https://aishwaryabpatil.github.io/Selenium-maven-testng-java-framework/)
 ## 📸 Reports
 Extent Reports are generated in the /reports folder.
 
