@@ -8,7 +8,7 @@ public class Extentreport {
 	
 	public static ExtentReports getExtentReports()
 	{
-	ExtentSparkReporter reporter=new ExtentSparkReporter("reports/extentreport.html");
+	ExtentSparkReporter reporter=new ExtentSparkReporter("reports/index.html");
 	ExtentReports extent=new ExtentReports();
 	extent.attachReporter(reporter);
 	return extent;
