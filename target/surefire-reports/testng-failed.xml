@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="Util.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ChromeBrowserTest(failed)" verbose="0">
+    <classes>
+      <class name="com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="handleconfirmbtn"/>
+        </methods>
+      </class> <!-- com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest -->
+    </classes>
+  </test> <!-- ChromeBrowserTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
