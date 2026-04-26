@@ -27,6 +27,14 @@ public class Widget {
 	@FindBy(id="section3-heading")
 	WebElement thirdaccordian;
 	
+	@FindBy(xpath="//a[contains(text(),'Auto Complete')]")
+	WebElement auto_completelink;
+	
+	@FindBy(id="autoCompleteMultipleInput")
+	WebElement autocomplete_input;
+	
+	@FindBy(className="w-full")
+	List<WebElement> listautocomplete;
 	
 	public void clickaccordian() {
 		accordian.click();
@@ -60,8 +68,28 @@ public class Widget {
 		return thirdaccordian;
 	}
 	
+	public void AutoCompleteClick()
+	{
+		WebDriverWait w=new WebDriverWait(driver,Duration.ofSeconds(20));
+		w.until(ExpectedConditions.elementToBeClickable(auto_completelink)).click();
+		
+	}
 	
-	
+	public void entertextautocomplete()
+	{
+		WebDriverWait w=new WebDriverWait(driver,Duration.ofSeconds(20));
+		w.until(ExpectedConditions.elementToBeClickable(autocomplete_input)).click();
+		autocomplete_input.sendKeys("r");
+		for(WebElement list:listautocomplete)
+		{
+			if(list.equals("Red"))
+			{
+				list.click();
+			}
+			System.out.println(list.getText());
+		}
+		
+	}
 	public Widget(WebDriver driver)
 	{
 		this.driver=driver;

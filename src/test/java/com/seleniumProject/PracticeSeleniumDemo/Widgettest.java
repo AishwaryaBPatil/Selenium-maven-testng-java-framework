@@ -19,5 +19,12 @@ public class Widgettest extends BaseClass{
 	     Assert.assertEquals(thirdstring, thirdstring1,"thirdAssertion not working");
 	}
 	
+	@Test
+	public void handleautocomplete()
+	{
+		widget=new Widget(driver);
+		widget.AutoCompleteClick();
+		widget.entertextautocomplete();
+	}
 
 }

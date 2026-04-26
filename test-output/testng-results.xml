@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-15T19:40:05 IST" name="Suite" finished-at="2026-04-15T19:40:10 IST" duration-ms="4714">
+  <suite started-at="2026-04-21T12:29:07 IST" name="Suite" finished-at="2026-04-21T12:29:13 IST" duration-ms="5948">
     <groups>
     </groups>
-    <test started-at="2026-04-15T19:40:05 IST" name="ChromeBrowserTest" finished-at="2026-04-15T19:40:10 IST" duration-ms="4714">
+    <test started-at="2026-04-21T12:29:07 IST" name="ChromeBrowserTest" finished-at="2026-04-21T12:29:13 IST" duration-ms="5948">
       <class name="com.seleniumProject.PracticeSeleniumDemo.Widgettest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:40:05 IST" name="setup" finished-at="2026-04-15T19:40:09 IST" duration-ms="3294" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@3ddc6915]" started-at="2026-04-21T12:29:07 IST" name="setup" finished-at="2026-04-21T12:29:11 IST" duration-ms="3493" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="handleaccordian()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:40:09 IST" name="handleaccordian" finished-at="2026-04-15T19:40:10 IST" duration-ms="1011" status="PASS">
+        <test-method signature="handleautocomplete()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@3ddc6915]" started-at="2026-04-21T12:29:11 IST" name="handleautocomplete" finished-at="2026-04-21T12:29:13 IST" duration-ms="2048" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleaccordian -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@6f6745d6]" started-at="2026-04-15T19:40:10 IST" name="teardown" finished-at="2026-04-15T19:40:10 IST" duration-ms="357" status="PASS">
+        </test-method> <!-- handleautocomplete -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.seleniumProject.PracticeSeleniumDemo.Widgettest@3ddc6915]" started-at="2026-04-21T12:29:13 IST" name="teardown" finished-at="2026-04-21T12:29:13 IST" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

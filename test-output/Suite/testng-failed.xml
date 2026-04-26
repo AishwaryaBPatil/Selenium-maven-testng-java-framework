@@ -10,8 +10,8 @@
       <class name="com.seleniumProject.PracticeSeleniumDemo.Widgettest">
         <methods>
           <include name="teardown"/>
-          <include name="clickallacco"/>
           <include name="setup"/>
+          <include name="handleautocomplete"/>
         </methods>
       </class> <!-- com.seleniumProject.PracticeSeleniumDemo.Widgettest -->
     </classes>
