@@ -2,8 +2,10 @@
 target/
 
 # Screenshots & reports
-screenshots/
+target/
+test-output/
 reports/
+screenshots/
 
 # Eclipse files
 .project/
