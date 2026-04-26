@@ -1,5 +1,5 @@
 # Selenium  Maven TestNG Automation Framework
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat&logo=jenkins&logoColor=white)](https://github.com/AishwaryaBPatil/Selenium-maven-testng-java-framework.
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat&logo=jenkins&logoColor=white)](https://github.com/AishwaryaBPatil/Selenium-maven-testng-java-framework).
 
 ## 📌 Project Description
 This project is an automation framework built using Selenium, TestNG, and Maven.
