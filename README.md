@@ -1,6 +1,6 @@
 # Selenium  Maven TestNG Automation Framework
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat&logo=jenkins&logoColor=white)](https://github.com/AishwaryaBPatil/Selenium-maven-testng-java-framework).
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)]()
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://github.com/AishwaryaBPatil/Selenium-maven-testng-java-framework/)
 [![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)](https://github.com/AishwaryaBPatil/Selenium-maven-testng-java-framework/)
 [![TestNG](https://img.shields.io/badge/TestNG-FF6C37?style=flat&logoColor=white)](https://github.com/AishwaryaBPatil/Selenium-maven-testng-java-framework/blob/main/src/test/resources/testng.xml)
 [![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apachemaven&logoColor=white)](https://github.com/AishwaryaBPatil/Selenium-maven-testng-java-framework/blob/main/pom.xml)
