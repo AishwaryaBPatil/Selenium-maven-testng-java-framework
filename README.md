@@ -3,7 +3,7 @@
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)]()
 [![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)]()
 [![TestNG](https://img.shields.io/badge/TestNG-FF6C37?style=flat&logoColor=white)]()
-[![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apachemaven&logoColor=white)]()
+[![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apachemaven&logoColor=white)](https://github.com/AishwaryaBPatil/Selenium-maven-testng-java-framework/blob/main/pom.xml)
 
 ## 📌 Project Description
 This project is an automation framework built using Selenium, TestNG, and Maven.
