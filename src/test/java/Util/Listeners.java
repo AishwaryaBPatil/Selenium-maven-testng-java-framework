@@ -36,7 +36,6 @@ public class Listeners implements ITestListener {
         	String path=Screenshot.capturescreenshot(driver, result.getMethod().getMethodName());
         	test.addScreenCaptureFromPath(path, result.getMethod().getMethodName());//attach screenshot to report 
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

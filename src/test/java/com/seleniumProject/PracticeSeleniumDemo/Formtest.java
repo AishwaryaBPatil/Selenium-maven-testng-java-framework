@@ -5,7 +5,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Formtest extends BaseClass {
-	@Test
+	@Test(retryAnalyzer=Util.RetryAnalyzer.class)
 	public void validsubmitform()
 	{
 		Form f=new Form(driver);
