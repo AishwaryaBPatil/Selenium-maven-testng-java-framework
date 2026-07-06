@@ -3,6 +3,7 @@ package com.seleniumProject.PracticeSeleniumDemo;
 import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -96,7 +97,7 @@ public class Form {
 		fileupload.sendKeys("C:\\Users\\AISHWARYA\\Documents\\mysql.sql");
 		currentAddresstextbox.sendKeys("abcd");
 		dropdownbutton.click();
-		
+
 		for(WebElement li:statedropdown)
 		{
 			if(li.getText().equals(expected))
@@ -125,7 +126,7 @@ public class Form {
 	    return firstNametext.getAttribute("value");
 	}
 	public String getLastNameValue() {
-	    return firstNametext.getAttribute("value");
+	    return lastNametext.getAttribute("value");
 	}
 	public String getLastValidationmessage() {
 	    return lastNametext.getAttribute("validationMessage");

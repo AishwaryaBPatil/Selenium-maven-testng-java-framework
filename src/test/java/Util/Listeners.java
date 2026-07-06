@@ -28,8 +28,8 @@ public class Listeners implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result)
 	{
-		Object testClass = result.getInstance();
-        WebDriver driver = ((BaseClass) testClass).getdriver();
+		Object testClass = result.getInstance(); // return the object of failed test
+        WebDriver driver = ((BaseClass) testClass).getdriver(); //when the fail to captture the screenshot need to get webdriver instance
         test.fail(result.getThrowable());
         
         try {

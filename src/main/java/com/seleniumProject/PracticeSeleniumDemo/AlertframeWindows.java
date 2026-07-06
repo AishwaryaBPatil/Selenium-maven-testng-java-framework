@@ -32,7 +32,7 @@ public class AlertframeWindows {
 	@FindBy(id="timerAlertButton")
 	WebElement timealertbtn;
 	
-	@FindBy(id="confirmResult")
+	@FindBy(id="confirmButton")
 	WebElement confirmbn;
 	
 	
@@ -53,7 +53,7 @@ public class AlertframeWindows {
 	
 	public void windowhandlebutton()
 		{
-			browserwindow.click();
+			driver.get("https://xqa.io/practice/browser-windows");
 		}
 	public void newtab()
 		{
@@ -71,10 +71,7 @@ public class AlertframeWindows {
 		
 	public void clickalert()
 	{
-		JavascriptExecutor js=(JavascriptExecutor)driver;
-		js.executeScript("window.scrollBy(0,500)");
-		js.executeScript("arguments[0].click();", alert);
-		
+		driver.get("https://xqa.io/practice/alerts");
 	}
 	//Click Button to see alert
 	public void clickme()
@@ -90,11 +87,9 @@ public class AlertframeWindows {
 	}
 	public void confirmalert()
 	{
-		JavascriptExecutor js=(JavascriptExecutor)driver;
-		//js.executeScript("window.scrollBy(0,500)");
-		js.executeScript("arguments[0].click();", confirmbn);
-		//WebDriverWait w=new WebDriverWait(driver,Duration.ofSeconds(20));
-		//w.until(ExpectedConditions.elementToBeClickable()).click();
+		WebDriverWait w=new WebDriverWait(driver,Duration.ofSeconds(10));
+		WebElement btn=w.until(ExpectedConditions.elementToBeClickable(confirmbn));
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
 	}
 		
 	public void sendpromt()
@@ -106,9 +101,7 @@ public class AlertframeWindows {
 	
 	public void frames()
 	{
-		WebDriverWait w=new WebDriverWait(driver,Duration.ofSeconds(10));
-		w.until(ExpectedConditions.elementToBeClickable(frame)).click();
-		
+		driver.get("https://xqa.io/practice/frames");
 	}
 	
 	public WebElement getfirstframelocator()

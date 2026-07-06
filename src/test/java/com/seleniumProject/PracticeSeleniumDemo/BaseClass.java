@@ -16,7 +16,7 @@ import org.testng.annotations.Parameters;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
-protected static WebDriver driver;
+ static WebDriver driver;
 ChromeOptions options;
 public WebDriver getdriver()
 {
@@ -33,10 +33,11 @@ public void setup(String browser)
 		WebDriverManager.chromedriver().setup();
 
 		ChromeOptions options = new ChromeOptions();
-
-		options.addArguments("--headless");
-		options.addArguments("--no-sandbox");
-		options.addArguments("--disable-dev-shm-usage");
+//
+//		options.addArguments("--headless");
+//		options.addArguments("--no-sandbox");
+//		options.addArguments("--disable-dev-shm-usage");
+//		options.addArguments("--window-size=1920,1080");
 
 		driver = new ChromeDriver(options);
 		}
@@ -46,9 +47,9 @@ public void setup(String browser)
 			   WebDriverManager.firefoxdriver().setup();
 			  FirefoxOptions options = new FirefoxOptions();
 
-				options.addArguments("--headless");
-				options.addArguments("--no-sandbox");
-				options.addArguments("--disable-dev-shm-usage");
+				//options.addArguments("--headless");
+				//options.addArguments("--no-sandbox");
+				//options.addArguments("--disable-dev-shm-usage");
 			   
 				driver=new FirefoxDriver();
 			}
@@ -58,9 +59,9 @@ public void setup(String browser)
 					WebDriverManager.edgedriver().setup();
 					EdgeOptions options = new EdgeOptions();
 
-					options.addArguments("--headless");
-					options.addArguments("--no-sandbox");
-					options.addArguments("--disable-dev-shm-usage");
+					//options.addArguments("--headless");
+					//options.addArguments("--no-sandbox");
+					//options.addArguments("--disable-dev-shm-usage");
 					driver=new EdgeDriver();
 				}
 				else

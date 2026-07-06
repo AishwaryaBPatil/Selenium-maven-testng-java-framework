@@ -66,10 +66,9 @@ public class AlertFramewindowstest extends BaseClass{
 		
 		alerthandle.confirmalert();
 		 al=new AlertUtil(driver);
-		 al.acceptalert();
 		 String text=al.getalertText();
 		 System.out.println(text);
-		 
+		 al.acceptalert();
 		  
 	}
 	@Test

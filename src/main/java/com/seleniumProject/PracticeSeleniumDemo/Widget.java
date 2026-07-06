@@ -3,6 +3,7 @@ package com.seleniumProject.PracticeSeleniumDemo;
 import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -37,7 +38,7 @@ public class Widget {
 	List<WebElement> listautocomplete;
 	
 	public void clickaccordian() {
-		accordian.click();
+		driver.get("https://xqa.io/practice/accordian");
 	}
 	
 	public void clickfirst()
@@ -70,9 +71,7 @@ public class Widget {
 	
 	public void AutoCompleteClick()
 	{
-		WebDriverWait w=new WebDriverWait(driver,Duration.ofSeconds(20));
-		w.until(ExpectedConditions.elementToBeClickable(auto_completelink)).click();
-		
+		driver.get("https://xqa.io/practice/auto-complete");
 	}
 	
 	public void entertextautocomplete()
