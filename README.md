@@ -10,21 +10,70 @@ This project is an automation framework built using Selenium, TestNG, and Maven.
 Practice Site - https://xqa.io/practice
 
 ## 🛠️ Tech Stack
-- Java
-- Selenium WebDriver
-- TestNG
-- Maven
+Tech Stack
+Technology	Version
+Java	17
+Selenium WebDriver	4.x
+TestNG	Latest
+Maven	Latest
+WebDriverManager	Latest
+Extent Reports	Latest
+Git	Version Control
+GitHub	Repository Hosting
 
 ## 📁 Project Structure
 src/
  ├── main/java
  ├── test/java
  └── util/
+ 
+**##Design Pattern Used**
+
+Page Object Model (POM)
+The framework separates web elements from test scripts which improves:
+Reusability
+Maintainability
+Readability
+
+**Prerequisites**
+
+Before running the project, install:
+Java JDK 17 or later
+Maven
+Eclipse or IntelliJ IDEA
+Google Chrome
+Git
 
 ## ▶️ How to Run
 1. Clone the repository
 2. Open in IDE (Eclipse/IntelliJ)
 3. Run testng.xml file
+   
+**##Test Execution Flow**
+TestNG XML
+↓
+Base Class
+↓
+Launch Browser
+↓
+Open Application
+↓
+Execute Test Cases
+↓
+Capture Screenshot (On Failure)
+↓
+Generate Extent Report
+↓
+Close Browser
+
+**Framework Architecture**
+Test Classes
+Page Object Classes
+Base Class
+Utility Classes
+Configuration File
+TestNG XML
+Extent Report
 
 ## 📊 Test Execution Report
 
