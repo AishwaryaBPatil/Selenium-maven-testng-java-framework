@@ -30,7 +30,7 @@ src/
 
 The automation test execution report is generated using Extent Reports.
 
-🔗 [Click here to view report](https://aishwaryabpatil.github.io/Selenium-maven-testng-java-framework/)
+🔗 [Click here to view report](file:///C:/Users/AISHWARYA/Eclipsenew/automation/PracticeSeleniumDemo/reports/index.html)
 ## 📸 Reports
 Extent Reports are generated in the /reports folder.
 ScreenShot of report <img width="1888" height="921" alt="image" src="https://github.com/user-attachments/assets/2d2a9ca0-6b49-407f-b3a1-ac479bf3e178" />
