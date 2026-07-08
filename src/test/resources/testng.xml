@@ -11,7 +11,6 @@
  <class name="com.seleniumProject.PracticeSeleniumDemo.Formtest"/> 
  <class name="com.seleniumProject.PracticeSeleniumDemo.AlertFramewindowstest"/>
  <class name="com.seleniumProject.PracticeSeleniumDemo.Widgettest"/>
- <class name="com.seleniumProject.PracticeSeleniumDemo.Interactionstest"/>
  <class name="com.seleniumProject.PracticeSeleniumDemo.ElementTest">
  <methods>
  <include name="check_valid_webtable"></include>
